@@ -1,1 +1,65 @@
-j
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First HTML Code</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6ff;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>🚀 My First Code</h1>
+
+    <p>Hello! My name is Habiba.</p>
+
+    <p>This is my first HTML page created using GitHub Codespaces.</p>
+
+    <p>I am learning how to code and this is the beginning of my journey into tech.</p>
+
+    <button onclick="alert('Welcome to my first webpage!')">
+        Click Me
+    </button>
+</div>
+
+</body>
+</html>
